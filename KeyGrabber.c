@@ -40,7 +40,7 @@
 
 JNIEXPORT void JNICALL Java_KeyGrabber_listen(JNIEnv *env, jobject obj)
 {
-    printf("Starting to listen to Key F3\n");
+    printf("\nStarting to listen to Key F3\n");
     jclass cls = (*env)->FindClass(env, "KeyGrabber");
     if(cls == NULL)
     {
